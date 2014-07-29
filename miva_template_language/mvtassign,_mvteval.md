@@ -1,8 +1,4 @@
 # mvt:assign, mvt:eval
-* something cool
-* is
-* this
-* something
 
 ```
 <mvt:assign name="g.tab" value="asciichar(9)"/>

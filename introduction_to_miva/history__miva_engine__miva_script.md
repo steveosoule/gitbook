@@ -41,9 +41,8 @@ Miva Merchant Empresa is the backbone of Miva Script. As a server-side engine, E
 
 #### Key Empresa benefits
 
-An integrated, SQL-based data system, with cross-platform database and index support.
-Multiple database scheme interfacing, with support for MivaSQL, MySQL and xBase3.
-Commerce library functions allowing direct communication with remote services.
-Site-specific and server-wide administration and configuration options.
-Cross-platform capabilities, allowing it to run across different server interfaces and operating systems.
-System Requirements
+* An integrated, SQL-based data system, with cross-platform database and index support.
+* Multiple database scheme interfacing, with support for MivaSQL, MySQL and xBase3.
+* Commerce library functions allowing direct communication with remote services.
+* Site-specific and server-wide administration and configuration options.
+* Cross-platform capabilities, allowing it to run across different server interfaces and operating systems.
