@@ -1,6 +1,4 @@
-# mvt:assign
-
-## Description
+# `<mvt:assign>`
 
 `<mvt:assign>` Executes the expression contained within `value` and saves that value to the variable defined in the `name` attribute.
 
@@ -9,16 +7,16 @@
 ## Psuedo Syntax
 
 ```
-<mvt:assign name="variable" value="expression, string or number" />
+<mvt:assign name="variable" value="expression, string, or number" />
 ```
 
 ## Basic Example
 
 ```
 <mvt:assign name="g.sum" value="1 + 2" />
-The sum is: "&mvt:global:sum;"
+The sum is: &mvt:global:sum;
 ```
-*Output:* `The sum is: "3"`
+*Output:* `The sum is: 3`
 
 ## Attributes
 
@@ -27,6 +25,14 @@ The sum is: "&mvt:global:sum;"
         * If no prefix (l. or g.) is given it defaults to be a global variable.
 *  `value`
     *  The value can either be an expression a string, a number or a combination of all three.
+
+## Note
+
+* This function can create both global and local variables
+* Global variables are always available to output in the page template. (&mvt:global:test)
+* Local variables can only be output if they are a part of the l.settings structure (l.settings:test)
+* Any string (text) needs to be wrapped in single quotes or else it will be treated as a variable
+* Numbers do not need single quotes
 
 ---
 
