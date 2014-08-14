@@ -11,7 +11,7 @@
 * [Miva Template Language](miva_template_language/README.md)
    * [Entities & Encoding](miva_template_language/entities_&_encoding.md)
    * [Global & Local Variables](miva_template_language/global_&_local_variables.md)
-   * [mvt:assign, mvt:eval](miva_template_language/mvtassign,_mvteval.md)
+   * [mvt:assign & mvt:eval](miva_template_language/mvtassign,_mvteval.md)
    * [Miva Structures](miva_template_language/miva_structures.md)
    * ["l.settings" Structure](miva_template_language/lsettings_structure.md)
    * [For Each Loops](miva_template_language/for_each_loops)
